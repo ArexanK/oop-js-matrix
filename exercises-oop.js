@@ -6,7 +6,15 @@
 //2 - Methods:
 //`introduce()`: This method should return a string introducing the person, for example: "Hi, my name is John and I am 25 years old."
 
+
+
+
+
+
+
+
 let persons = [];
+
 
 class person {
   constructor(fname, age) {
@@ -44,6 +52,13 @@ function wait() {
 wait().then((result) => {
   console.log(result);
 });
+
+//const wait= new Promise((resolve, reject) =>{
+  //setTimeout(()=> {
+    //  resolve("this is solved");
+    //},1500
+    //})
+  //}
 
 //Exercise 4 - Submission Instructions
 //Create an HTML file and a corresponding JavaScript file to complete the assignment. Implement the tasks in the JavaScript file and include it in the HTML file using the `<script>` tag. Test your code thoroughly, ensuring that each task is working correctly. Save both files and submit them together.
